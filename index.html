@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Art Gallery</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100 text-gray-800" style="background-color:aliceblue;">
+    <header class="bg-white shadow">
+        <div class="container mx-auto px-4 py-4 flex justify-between items-center">
+            <h1 class="text-2xl font-bold">Online Art Gallery</h1>
+            <nav>
+                <ul class="flex space-x-4">
+                    <li><a href="index.html" class="text-gray-700 hover:text-gray-900">Home</a></li>
+                    <li><a href="exhibitions.html" class="text-gray-700 hover:text-gray-900">Exhibitions</a></li>
+                    <li><a href="marketplace.html" class="text-gray-700 hover:text-gray-900">Marketplace</a></li>
+                   
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main class="container mx-auto px-4 py-8">
+        <section id="intro" class="text-center mb-8">
+            <h2 class="text-3xl font-semibold mb-4">Welcome to Our Online Art Gallery</h2>
+            <p class="text-gray-600">Explore the finest art from talented artists around the world.</p>
+        </section>
+        <section id="featured-artists">
+            <h2 class="text-2xl font-semibold mb-4">Featured Artists</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="artist text-center">
+                    <img src=".\public\images\leonarde_de_vinci.jpg" alt="Artist 1" class="w-full h-64 object-cover mb-4 rounded-lg shadow-md">
+                    <h3 class="text-xl font-semibold">Leonardo da Vinci</h3>
+                </div>
+                <div class="artist text-center">
+                    <img src=".\public\images\Michelangelo.jpg" alt="Artist 2" class="w-full h-64 object-cover mb-4 rounded-lg shadow-md">
+                    <h3 class="text-xl font-semibold">Michelangelo</h3>
+                </div>
+                <div class="artist text-center">
+                    <img src=".\public\images\salvador_dali.jpg" alt="Artist 3" class="w-full h-64 object-cover mb-4 rounded-lg shadow-md">
+                    <h3 class="text-xl font-semibold">Salvador Dalí i Domènech</h3>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="bg-white shadow mt-8">
+        <div class="container mx-auto px-4 py-4 text-center">
+            <p class="text-gray-600">&copy; 2024 Online Art Gallery. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>

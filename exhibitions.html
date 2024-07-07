@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Virtual Art Exhibitions</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100 text-gray-800" style="background-color: aliceblue;">
+    <header class="bg-white shadow">
+        <div class="container mx-auto px-4 py-4 flex justify-between items-center">
+            <h1 class="text-2xl font-bold">Online Art Gallery</h1>
+            <nav>
+                <ul class="flex space-x-4">
+                    <li><a href="index.html" class="text-gray-700 hover:text-gray-900">Home</a></li>
+                    <li><a href="exhibitions.html" class="text-gray-700 hover:text-gray-900">Exhibitions</a></li>
+                    <li><a href="marketplace.html" class="text-gray-700 hover:text-gray-900">Marketplace</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main class="container mx-auto px-4 py-8">
+        <section id="current-exhibition" class="mb-8">
+            <h2 class="text-3xl font-semibold mb-4">Current Exhibition: Modern Art</h2>
+            <p class="text-gray-600 mb-4">Experience the latest modern art pieces from emerging artists.</p>
+            <div class="exhibition-gallery grid grid-cols-1 md:grid-cols-3 gap-8">
+                <img src=".\public\images\exhibition1.jpg" alt="Art 1" class="w-full h-64 object-cover rounded-lg shadow-md">
+                <img src=".\public\images\exhibition2.jpg" alt="Art 2" class="w-full h-64 object-cover rounded-lg shadow-md">
+                <img src=".\public\images\exhibition3.jpg" alt="Art 3" class="w-full h-64 object-cover rounded-lg shadow-md">
+            </div>
+        </section>
+        <section id="upcoming-exhibitions">
+            <h2 class="text-2xl font-semibold mb-4">Upcoming Exhibitions</h2>
+            <p class="text-gray-600">Stay tuned for our upcoming exhibitions featuring diverse art forms.</p>
+        </section>
+    </main>
+    <footer class="bg-white shadow mt-8">
+        <div class="container mx-auto px-4 py-4 text-center">
+            <p class="text-gray-600">&copy; 2024 Online Art Gallery. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
